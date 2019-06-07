@@ -10,7 +10,6 @@ function! tnite#start(cmds, action) abort
     echom 'failed to open terminal'
     return
   endif
-  tnoremap <buffer><nowait><Esc> <Esc>
 endfunction
 
 function! s:callback(bufn, action_key) abort
